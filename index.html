@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>short messages for you mingg mingg </title>
+
+<script type="text/JavaScript">
+flag=1
+function f1()
+{
+    var Name = prompt("what should I call you?");
+    
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("Hi " + Name + ", always remember you're special.");
+    alert("you are one of a kind! , " + Name ) ;
+    alert(" I believe in you! ") ;
+    alert("If you think no one appreciate and supporting you remember i do, Im always here for you paka strong ka take care always. , "  + Name ) ;
+    }
+}
+function f()
+{
+    
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+        Bn.style.position="absolute"
+
+}
+</script>
+
+</head>
+<body style="display:flex;justify-content: center;">
+<div>
+    <h1> Hey! you look beautiful!</h1>
+    <div style="display: flex;justify-content: center;">
+        <img src="https://media1.tenor.com/m/4HczzbJZ5GgAAAAd/kitty-dance-kitten.gif" height="200" width="200" /></div>
+
+<h1 style="display: flex; justify-content: center;">don't you think?</h1>
+<div style="width: 100%; display: flex; justify-content: center;">
+    <span id="By" style="margin-right: 15px">
+        <input type="button" value=" YES " onClick="f1()" />
+    </span>
+    <span ID="Bn">
+        <input type="button" value=" NO " onMouseOver="f()" />
+    </span>
+</div>
+
+</div>
+</body>
+</html>
